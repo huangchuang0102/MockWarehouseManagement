@@ -1,6 +1,6 @@
 # Warehouse_Management
 This is the Backend Repo
-#BackEnd
+# BackEnd
 This project requires JDK 8 or obove
-#Configuration
+# Configuration
 Configure your local database information on the properties file under resource folder
