@@ -1,0 +1,32 @@
+.table-scroll {
+    position: relative;
+    height: 450px;
+    overflow: auto;
+    }
+.scroll-y {
+    display: block;
+    }
+
+.btn-nisum {
+    background: #00cfff;
+    background: linear-gradient(to bottom, #6e12ff, #0019ff, #00cfff);
+    color: #fff;
+    border-radius: 0%;
+    border: none;
+    font-family: 'Corbel', Verdana, "Bitstream Vera Sans", sans-serif;
+
+}
+
+.btn-nisum:hover {
+    color: #fff;
+}
+
+.mat-row:nth-child(odd):hover{
+    background-color: #c0bfc0;
+    transition: .5s;
+}
+
+.mat-row:nth-child(even):hover{
+    background-color: #c0bfc0;
+    transition: .5s;
+}

@@ -1,0 +1,73 @@
+<div class="container py-4">
+    <div class="row justify-content-center">
+        <div class="card col-3 mx-2 py-2" style="width: 16rem;">
+            <div class="card-header py-2 bg-white text-center">
+                Total Orders Shipped
+            </div>
+            <div class="card-body d-flex align-self-center align-items-center">
+                <h2 style="font-size: 50px;">{{totalOrdersShipped}}</h2>
+            </div>
+        </div>
+        <div class="card col-3 mx-2 py-2" style="width: 18rem;">
+            <div class="card-header py-2 bg-white text-center">
+                Average Time to Ship
+            </div>
+            <div class="card-body d-flex align-self-center align-items-center">
+                <h2 style="font-size: 45px;">{{avgTime}} Days</h2>
+            </div>
+        </div>
+
+        <div class="card col-3 mx-2 py-2" style="width: 18rem;">
+            <div class="card-header py-2 bg-white text-center">
+                Top Selling Items
+            </div>
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table class="table table-sm table-border">
+                        <thead>
+                            <tr>
+                                <th>Item</th>
+                                <th class="text-end">Sold</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr *ngFor="let topSellingItem of topSellingItems">
+                                <td>{{topSellingItem[0]}}</td>
+                                <td class="text-end"><b>{{topSellingItem[1]}}</b></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="card col-3 mx-2 py-2 px-2" style="width: 25rem;">
+            <div class="card-header py-2 bg-white text-center">
+                Daily Total Orders Shipped
+            </div>
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table class="table table-sm table-border">
+                        <thead>
+                            <tr>
+                                <th class="text-center" *ngFor="let previousWeekDate of previousWeekDates">{{previousWeekDate}}</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="text-center" *ngFor="let previousWeeklyShip of previousWeeklyShipping">{{previousWeeklyShip}}</td>
+                            </tr>
+                            <th class="text-center" *ngFor="let weekDate of weekDates">{{weekDate}}</th>
+                            <tr>
+                                <td class="text-center" *ngFor="let weeklyShip of weeklyShipping">{{weeklyShip}}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="text-end py-2 px-3">
+                <h5>Current Weekly Total: {{getSum()}}</h5>
+            </div>
+        </div>
+    </div>
+</div>

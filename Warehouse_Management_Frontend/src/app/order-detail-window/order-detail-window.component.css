@@ -1,0 +1,33 @@
+button {
+    margin-top: 20px;
+    background-color: #eee;
+    padding: 0.5em;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #cfd8dc;
+}
+
+button:disabled {
+    background-color: #eee;
+    color: #ccc;
+    cursor: auto;
+}
+
+.customer-heading {
+    display: inline;
+}
+
+#order-status {
+    padding-left: 180px;
+}
+
+#order-created {
+    padding-left: 180px;
+}
+
+#go-back-button {
+    margin-bottom: 2em;
+}

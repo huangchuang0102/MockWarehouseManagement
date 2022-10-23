@@ -1,0 +1,262 @@
+[33mcommit 1a54c5464b17ed2691102e5ea88e243f15433518[m[33m ([m[1;36mHEAD -> [m[1;32mchuang[m[33m)[m
+Merge: e9cf913 2fe9e2b
+Author: huangchuang0102 <huangchuang0102@gmail.com>
+Date:   Mon Sep 26 14:07:17 2022 -0700
+
+    Merge branch 'dev' into chuang
+
+[33mcommit e9cf9135105b077a9d8162c222d96bf9864157f2[m[33m ([m[1;31morigin/chuang[m[33m)[m
+Author: huangchuang0102 <huangchuang0102@gmail.com>
+Date:   Mon Sep 26 14:01:25 2022 -0700
+
+    working on Paginator
+
+[33mcommit 2fe9e2b5b5194e74420178912fca7cd4d55ce1ca[m
+Author: eagagas1 <eagagas@nisum.com>
+Date:   Mon Sep 26 13:56:30 2022 -0700
+
+    FINALLY got it to work
+
+[33mcommit 3005f444098fe7938e4d4d63318e1912fd3d5bcd[m
+Merge: 272344d 9122173
+Author: eagagas1 <eagagas@nisum.com>
+Date:   Mon Sep 26 13:30:16 2022 -0700
+
+    merged?
+
+[33mcommit 272344d35e9c6210cafc431eed32f49f2492fd62[m
+Merge: 37ffec0 c205414
+Author: eagagas1 <eagagas@nisum.com>
+Date:   Mon Sep 26 13:26:57 2022 -0700
+
+    setting up for merge
+
+[33mcommit 912217381e4afe927e9d7677a27adcc92e6b1113[m
+Merge: c205414 ae29884
+Author: Faisal Zaheer <faisalszaheer@gmail.com>
+Date:   Mon Sep 26 12:10:47 2022 -0700
+
+    Fixed merge issues with Dearo branch merge. Viewing Pending orders on main page works, clicking OrderId into new page works, completed metrics work, and other completed features from Dearo branch work.
+
+[33mcommit e62774f305df084e344eb16f3b69f7b1c45f7a74[m
+Merge: f713d5f ae29884
+Author: huangchuang0102 <huangchuang0102@gmail.com>
+Date:   Mon Sep 26 11:46:49 2022 -0700
+
+    Merge remote-tracking branch 'origin/dearo' into chuang
+
+[33mcommit 37ffec0798993dbbaba5ab99dff34138158c89e1[m
+Author: eagagas1 <eagagas@nisum.com>
+Date:   Mon Sep 26 11:44:08 2022 -0700
+
+    refactoring some code
+
+[33mcommit ae29884f0c5391619f59f68937a766b40afa3153[m[33m ([m[1;31morigin/dearo[m[33m, [m[1;31morigin/Google-SSO[m[33m)[m
+Author: Dearo-Yam <70773145+Dearo-Yam@users.noreply.github.com>
+Date:   Mon Sep 26 11:24:24 2022 -0700
+
+    updated
+
+[33mcommit 0dfbfc85ea691a60e281d8017c8577067f69cebc[m
+Author: eagagas1 <eagagas@nisum.com>
+Date:   Mon Sep 26 11:23:31 2022 -0700
+
+    changing routing names
+
+[33mcommit c2054144a524a7fdde3d7546859c5518299fffdc[m
+Author: eagagas1 <eagagas@nisum.com>
+Date:   Mon Sep 26 11:11:49 2022 -0700
+
+    trying to fix order detail window
+
+[33mcommit fb759ad616f08002588dec6403a67412cafaa55e[m
+Author: eagagas1 <eagagas@nisum.com>
+Date:   Mon Sep 26 10:31:41 2022 -0700
+
+    Added missing files
+
+[33mcommit f713d5ff2a2d24c17535df1008de57faef7fc659[m
+Author: huangchuang0102 <huangchuang0102@gmail.com>
+Date:   Mon Sep 26 09:08:41 2022 -0700
+
+    dropdown
+
+[33mcommit a01ad85fffa60b29d4e371388f851e4fad61e77a[m
+Author: eagagas1 <eagagas@nisum.com>
+Date:   Sun Sep 25 11:31:59 2022 -0700
+
+    Working on merge
+
+[33mcommit 05dce4e0a5dd8baeeec9178a15265b89a15f4ab6[m
+Author: eagagas1 <eagagas@nisum.com>
+Date:   Fri Sep 23 16:16:13 2022 -0700
+
+    Still prepping for merge
+
+[33mcommit c510d30628e08ae58a92f657bd185c8a25a02196[m
+Merge: 0c53c2f e56fda7
+Author: eagagas1 <eagagas@nisum.com>
+Date:   Fri Sep 23 16:13:11 2022 -0700
+
+    merging dev to view-order-details branch
+
+[33mcommit e56fda709624f872233acb35ca153eaf888cb192[m
+Author: eagagas1 <eagagas@nisum.com>
+Date:   Fri Sep 23 15:53:30 2022 -0700
+
+    EARVIN was missing some files
+
+[33mcommit 0c53c2fb41120654fb89af32a353f13458b09b50[m
+Author: eagagas1 <eagagas@nisum.com>
+Date:   Fri Sep 23 15:41:20 2022 -0700
+
+    Getting branch ready for merge
+
+[33mcommit f98a13ba5a3f814daf3da09bd064a801101724d3[m
+Merge: 80c214e 30e508d
+Author: huangchuang0102 <huangchuang0102@gmail.com>
+Date:   Fri Sep 23 15:18:27 2022 -0700
+
+    Merge branch 'chuang' of https://github.com/Haozhen-Shu/Warehouse_Management_Frontend into chuang
+
+[33mcommit 80c214edc312a8fae3b0e0cd8ced486d7f21305d[m
+Author: huangchuang0102 <huangchuang0102@gmail.com>
+Date:   Fri Sep 23 15:01:59 2022 -0700
+
+    take off pending component
+
+[33mcommit 49436498ee5129c45eff9b0dd26ecbffd17d021b[m
+Merge: 965fc98 30e508d
+Author: huangchuang0102 <92133735+huangchuang0102@users.noreply.github.com>
+Date:   Fri Sep 23 14:28:04 2022 -0700
+
+    Merge pull request #7 from Haozhen-Shu/chuang
+    
+    pendingOrders
+
+[33mcommit 30e508d3fde7ce04f864dbe0df047e8de526de42[m
+Merge: b92986f 965fc98
+Author: huangchuang0102 <92133735+huangchuang0102@users.noreply.github.com>
+Date:   Fri Sep 23 14:27:34 2022 -0700
+
+    Merge branch 'dev' into chuang
+
+[33mcommit 965fc98395c29550fa2dcb8a38cfa834e85bb419[m
+Author: sohan42785 <sbyrapun@asu.edu>
+Date:   Fri Sep 23 14:22:16 2022 -0700
+
+    dev branch
+
+[33mcommit 03928034be9d1ecdf35f9fa700b5f5bb7dfee89a[m
+Author: eagagas1 <eagagas@nisum.com>
+Date:   Fri Sep 23 14:16:44 2022 -0700
+
+    Ship and Cancel buttons placed
+
+[33mcommit b92986f3bd412f1502c9ce1c72963ffeb8ab3479[m
+Author: huangchuang0102 <huangchuang0102@gmail.com>
+Date:   Fri Sep 23 14:14:45 2022 -0700
+
+    pendingOrders
+
+[33mcommit 2d3ce2cff5857e80630147ac6ef665c852fa6070[m
+Author: eagagas1 <eagagas@nisum.com>
+Date:   Fri Sep 23 12:19:04 2022 -0700
+
+    I think I am finished with my user story
+
+[33mcommit 9a18ea7b97f4b47beebc658be8d8e5bb0a62fee4[m
+Merge: f2fe376 10eaf22
+Author: Dearo-Yam <70773145+Dearo-Yam@users.noreply.github.com>
+Date:   Fri Sep 23 11:27:44 2022 -0700
+
+    Merge branch 'view-total-orders-shipped' into dearo
+
+[33mcommit f2fe3764d111b453c54ba9fda09c000357b02e78[m
+Author: Dearo-Yam <70773145+Dearo-Yam@users.noreply.github.com>
+Date:   Fri Sep 23 11:22:35 2022 -0700
+
+    ignore
+
+[33mcommit 10eaf229ad79e9d17af43baf93932e9b226dac3a[m
+Author: EdwinTran <70764419+EdwinTran@users.noreply.github.com>
+Date:   Fri Sep 23 11:17:34 2022 -0700
+
+    Added changes to nav-bar
+
+[33mcommit ce28a6b64d26a7dfc00617b0d401636c85487828[m[33m ([m[1;31morigin/table-scroll[m[33m)[m
+Author: sohan42785 <sbyrapun@asu.edu>
+Date:   Fri Sep 23 10:57:21 2022 -0700
+
+    Added scroll feature
+
+[33mcommit 166c162e555aa7c6b97c6af48d7f9fe4d0f26c0f[m
+Merge: 2779856 434bd79
+Author: EdwinTran <70764419+EdwinTran@users.noreply.github.com>
+Date:   Fri Sep 23 10:39:01 2022 -0700
+
+    Added code from dearo's nav-bar and brandon's Google SSO
+
+[33mcommit 434bd794a85f968d51e9cb47980d7fb77a6a93d0[m
+Author: Dearo-Yam <70773145+Dearo-Yam@users.noreply.github.com>
+Date:   Fri Sep 23 10:11:18 2022 -0700
+
+    updated nav/login
+
+[33mcommit 2779856078ff9bf8e1eee6dbc7ac25613592199d[m
+Author: EdwinTran <70764419+EdwinTran@users.noreply.github.com>
+Date:   Fri Sep 23 09:59:27 2022 -0700
+
+    Implemented average time to ship front end
+
+[33mcommit c66321d11fbaf3a034dc3a2f16a96e10cd1fe806[m
+Author: eagagas1 <eagagas@nisum.com>
+Date:   Thu Sep 22 18:40:05 2022 -0700
+
+    Creating mock items to be stored in the order interface
+
+[33mcommit b65d0aad6aa0183a5f44a89835363ba26b22cf9b[m
+Author: eagagas1 <eagagas@nisum.com>
+Date:   Thu Sep 22 18:02:42 2022 -0700
+
+    Refactoring code for better flow
+
+[33mcommit 548bfb2c61cc3a2a2061b6064fb70695489fd2d4[m
+Author: Dearo-Yam <70773145+Dearo-Yam@users.noreply.github.com>
+Date:   Thu Sep 22 16:12:17 2022 -0700
+
+    login
+
+[33mcommit b9613ddbc5dc88291ba33bea48324e28a19d5f83[m
+Author: huangchuang0102 <huangchuang0102@gmail.com>
+Date:   Thu Sep 22 15:49:16 2022 -0700
+
+    pendingOrders
+
+[33mcommit 649c7648c6d5bd8a574c6bb88642dc4d71f38a19[m
+Author: eagagas1 <eagagas@nisum.com>
+Date:   Thu Sep 22 15:42:21 2022 -0700
+
+    Prepping view order details for testing of multiple items
+
+[33mcommit ef73cad9977293bc59040cb3490a9ef31c09dd24[m
+Author: Dearo-Yam <70773145+Dearo-Yam@users.noreply.github.com>
+Date:   Thu Sep 22 15:20:34 2022 -0700
+
+    pending stuff
+
+[33mcommit a68b63ce19b14028508810ea3110de731490b245[m
+Merge: 3ccb92f 67634a4
+Author: EdwinTran <70764419+EdwinTran@users.noreply.github.com>
+Date:   Thu Sep 22 15:17:56 2022 -0700
+
+    Merge branch 'main' into view-total-orders-shipped
+
+[33mcommit 3ccb92ffc52184431e7ef99d3ac000da172849b3[m
+Author: EdwinTran <70764419+EdwinTran@users.noreply.github.com>
+Date:   Thu Sep 22 15:17:40 2022 -0700
+
+    Minor changes
+
+[33mcommit f7f578d5309894f3e10720c2f0baf634741025c5[m
+Author: EdwinTran <70764419+EdwinTran@users.noreply.github.c

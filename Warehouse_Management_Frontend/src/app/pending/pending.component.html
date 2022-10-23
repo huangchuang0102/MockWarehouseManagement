@@ -1,0 +1,46 @@
+<div class="sticky-top"><app-nav-bar></app-nav-bar></div>
+<div class="container">
+   
+    <div>
+        
+        <app-metrics></app-metrics>
+    </div>
+    <div class="row justify-content-left">
+        <div class="input-group rounded w-100">
+            <input [(ngModel)]="filterText" placeholder="Search" class="form-control col-4"  />
+            <div class="input-group-append">
+                <div class="col-1"><app-filter-menu></app-filter-menu></div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <table class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th scope="col">Order Number</th>
+                    <th scope="col">Order Status</th>
+                    <th scope="col">Order Created</th>
+                    <!-- <th>Order Completed</th> -->
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let order of orders|filterOrder: filterText |paginate
+                : {
+                    itemsPerPage: tableSize,
+                    currentPage: page,
+                    totalItems: count
+                };">
+                
+                    <td><a [routerLink] ="['/order-detail', order.orderId]">{{order.orderId}}</a></td>
+                    <td>{{order.orderStatus}}</td>
+                    <td>{{order.dateOrdered}}</td>
+
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="d-flex justify-content-center">
+        <pagination-controls previousLabel="Prev" nextLabel="Next" (pageChange)="onTableDataChange($event)">
+        </pagination-controls>
+    </div>
+</div>

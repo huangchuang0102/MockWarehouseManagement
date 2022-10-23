@@ -1,0 +1,23 @@
+<div class="sticky-top"><app-nav-bar></app-nav-bar></div>
+<div class="container">
+<div class="card-container">
+    
+    <div class="card">
+        <div class="card-header">
+            <h1>Confirmation</h1>
+        </div>
+        <div class="card-body">
+            <h2>Order#: {{id}}</h2>
+            <h2><strong>Are you sure you want to ship the above order?</strong></h2>
+            
+            <button (click)="shipOrder()">
+                <!-- <a [routerLink] ="['/order-detail/', customer.order_id]">Ship</a> -->
+                Ship
+            </button>
+         
+        </div>
+    </div>
+</div>
+
+<button id="go-back-button" (click)="goBack()">Go Back</button>
+</div>

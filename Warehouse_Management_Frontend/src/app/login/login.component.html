@@ -1,0 +1,100 @@
+
+<div class="bg-transparent text-center">
+ 
+  <div *ngIf="!user">
+    <nav class="navbar navbar-light bg-light" routerLinkActive="active" routerLink="/pending"><img src="assets/nisum-logo.png"  height="40" class="d-inline-block align-text-top"/></nav>
+    <div class=" d-flex justify-content-center align-items-center">
+    <div class="card mt-5 p-5 border-dark"> 
+      <div class="card-title">
+        <h1>Google Sign In</h1>
+      </div>
+      <div class="card-body">
+        
+        <button 
+        class="btn btn-outline-dark"
+        (click)="signInWithGL()"
+      >
+      <div></div>
+      <img width="20px" style="margin-bottom:3px; margin-right:5px" alt="Google sign-in" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/512px-Google_%22G%22_Logo.svg.png" />
+      Sign-In With Google
+    </button>
+      </div>
+  </div>
+    </div>
+    
+
+  </div>
+
+
+  
+  <!-- <div *ngIf="!user" class="card text-center">
+      <div class="card-block">
+        <h4 class="card-title">Not signed in</h4>
+        <p class="card-text">Sign in with</p>
+      </div>
+  
+      <div class="card-block d-flex justify-content-center">
+  
+        <button
+        class="btn "
+        (click)="signInWithGL()"
+      >
+      <img width="20px" style="margin-bottom:3px; margin-right:5px" alt="Google sign-in" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/512px-Google_%22G%22_Logo.svg.png" />
+        
+    </button>
+      </div>
+  
+      
+    </div> -->
+
+    <div *ngIf="user" >
+      <!-- <nav class="navbar navbar-light bg-light" routerLinkActive="active" routerLink="/pending"><img src="assets/nisum-logo.png"  height="40" class="d-inline-block align-text-top"/></nav> -->
+      
+      <!-- <div class="d-flex justify-content-center align-items-center">
+        <div class="card mt-5 w-50">
+          <div class="card-img-top ">
+            <img
+            *ngIf="user.photoUrl"
+            class="card-img-top img-responsive photo"
+            src="{{ user.photoUrl }}"
+          />
+          </div>
+          
+          <div class="card-body ">
+          <h1 class="card-text">{{ user.name }}</h1>
+          <div class="card-text">{{ user.email }}</div>
+          <div class="card-text pb-2">Logged in with {{ user.provider }}</div>
+          <button class="btn btn-danger border-dark" (click)="signOut()">Sign out</button>
+        </div>
+        </div>
+      </div> -->
+      
+      <!-- <app-logout [currUser]=user></app-logout> -->
+      
+    
+      <!-- <div class="card-block">
+      <img
+        *ngIf="user.photoUrl"
+        class="card-img-top img-responsive photo"
+        src="{{ user.photoUrl }}"
+      />
+    </div>
+      <div class="card-block">
+        <h4 class="card-title">{{ user.name }}</h4>
+        <p class="card-text">{{ user.email }}</p>
+        <p class="card-text">Logged in with {{ user.provider }}</p>
+      </div>
+      <div class="card-block">
+        <button class="btn btn-danger" (click)="signOut()">Sign out</button>
+      </div>
+      <div
+        class="card-block"
+        *ngIf="user.provider === GoogleLoginProvider.PROVIDER_ID"
+      >
+      </div> -->
+      {{signOut()}}
+    </div>
+    
+    <router-outlet></router-outlet>
+  </div>
+  
